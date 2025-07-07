@@ -1,1 +1,90 @@
-/* Start coding here */
+body {
+  margin: 0;
+  font-family: serif;
+  background: #fff;
+}
+
+.header {
+  background: #888;
+  color: #fff;
+  font-size: 2rem;
+  padding: 12px 0 12px 16px;
+  font-family: serif;
+}
+
+.chat-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+  padding: 0 40px;
+}
+
+.chat-left {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  margin-top: 230px;
+  justify-content: flex-end;
+}
+
+.chat-right {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-end;
+}
+
+.chat-bubble {
+  min-width: 200px;
+  max-width: 350px;
+  padding: 12px 24px;
+  border-radius: 30px;
+  font-size: 1.3rem;
+  margin-bottom: 0;
+  display: flex;
+  align-items: center;
+  position: relative;
+  word-break: break-word;
+}
+
+.left {
+  background: #888;
+  color: #fff;
+  justify-content: flex-start;
+}
+
+.right {
+  justify-content: flex-start;
+}
+
+.green {
+  background: #00c800;
+  color: black;
+}
+
+.gray {
+  background: #e0e0e0;
+  color: #222;
+}
+
+.close-btn {
+  position: absolute;
+  left: 230px;
+  top: 1px;
+  font-size: 0.8rem;
+  color: #fff;
+  cursor: pointer;
+  background: #717070;
+  border-radius: 50%;
+  width: 22px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.7;
+}
+
+.close-btn:hover {
+  opacity: 1;
+  background: #bbb;
+}
